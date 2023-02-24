@@ -453,7 +453,7 @@ while running:
     bkingh = bking
     legalM = []
 
-    print(legalmoves.legalInfo(board, white()))
+    #print(legalmoves.legalInfo(board, white()))
 
     wking = wkingh
     bking = bkingh
@@ -497,7 +497,7 @@ while running:
             board = boardholder.copy()
             bking = bkposh
             print('Checked!')
-        #system('clear')
+        system('clear')
         #print('\033[2J')
         boardUI()
         #system('(aplay moves.wav 2> /dev/null &)')
